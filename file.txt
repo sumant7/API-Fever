@@ -1,0 +1,2 @@
+This is the content of file.txt
+my name is sumant chaudhary
