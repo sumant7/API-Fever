@@ -19,6 +19,20 @@ function getDataLocal(){
 
 //getDataLocal() prints the content of file.txt
 
+//this was a get request
+//let's try out an API namely https://api.github.com/users
+// this API returns a list of github users in JSON format, go to the link to see
+function getData(){
+    url = "https://api.github.com/users"     
+    fetch(url).then((response)=>{
+        //return response.text()   this will print out the list as text
+        return response.json()  //will return is json format which is an array of objects
+    }).then((data)=>{    
+        console.log(data)
+    })
+}
 
+
+getData()
 
 
