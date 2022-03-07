@@ -7,3 +7,7 @@ Accesing Local Files using Fetch
 Get request to Github user API 
 
 Dummy Post request to JsonPlaceholder API.
+
+
+## Script2.js
+Usage of Async and Await
